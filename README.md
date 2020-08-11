@@ -3,7 +3,7 @@ Código criado por Paulo Campos.
 
 ## Pinagem do Raspberry Pi:
 
-![Pinagem](/Imagens/Pinagem_rev_1.jpeg)
+![Pinagem](/Imagens/Pinagem_rev_1.png)
 
 Para mais códigos de Paulo Campos acesse:
 
