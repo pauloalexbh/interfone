@@ -1,6 +1,9 @@
 # interfone
 Código criado por Paulo Campos.
 
+## Pinagem do Raspberry Pi:
+
+![Pinagem](/Imagens/Pinagem_rev_1.jpeg)
 
 Para mais códigos de Paulo Campos acesse:
 
