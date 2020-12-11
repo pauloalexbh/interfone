@@ -9,6 +9,8 @@ Para mais códigos de Paulo Campos acesse:
 
 * https://github.com/pauloalexbh?tab=repositories
 
+* sudo wget -P /home/piDesktop https://github.com/pauloalexbh/Pinagem/archive/master.zip
+
 * sudo wget -P /home/piDesktop https://github.com/pauloalexbh/InterruptionsDoor/archive/master.zip
 
 * sudo wget -P /home/piDesktop https://github.com/pauloalexbh/lirc/archive/master.zip
