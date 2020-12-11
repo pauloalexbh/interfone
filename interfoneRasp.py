@@ -10,10 +10,11 @@
 import RPi.GPIO as gpio
 from datetime import datetime, timedelta
 import time
+import PinagemZero
 
 # Global
-Campainha = 17
-Relefech = 18
+Campainha = PinagemZero.Campainha
+Relefech = PinagemZero.Portao
 
 duracaoPalma = 700;     #Valor representa um tempo em milissegundos, e o tempo que dura o som de uma palma, precisa ser calibrado entre 100 e 1000. 
 tempototal = 3500;  #Valor representa um tempo em milissegundos, e o intervalo maximo permitido entre uma sequencia de palmas.
@@ -75,7 +76,7 @@ def action_event_campainha(gpio_pin):
 
 #Configuracoes de GPIO
 # Configurando o modo do GPIO como BCM
-gpio.setmode(gpio.BCM)
+gpio.setmode(gpio.board)
  
 # Configurando PIN's como INPUT/OUTPUT e modo pull-down interno
 gpio.setup(Campainha, gpio.IN, pull_up_down = gpio.PUD_DOWN)
